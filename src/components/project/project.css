@@ -1,0 +1,53 @@
+/* 
+ a:hover {
+
+  
+  
+list-style: none;
+  color: yellow;
+  
+  opacity: 1;
+  
+  transition: ease-in-out;
+  
+  } */
+
+
+.timekeeping{
+  margin-left: 60px;
+ 
+}
+.report{
+  margin-left: 90px;
+}
+.timekeeping>a:hover{
+color: rgb(21, 203, 236);
+
+}
+.timekeeping>a{
+  color: black;
+  }
+  .img-fluid {
+   
+   
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin: 20px auto;
+    width: 100%;
+    
+
+   
+  }
+
+  @media (max-width: 576px) { 
+    .img-fluid {
+      width: 100%;
+    }
+  }
+ 

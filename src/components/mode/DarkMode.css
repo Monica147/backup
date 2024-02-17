@@ -1,0 +1,302 @@
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+  
+  }
+  
+  body.dark-mode {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
+    color: #fff;
+  }
+  
+  .app {
+    padding: 10px;
+ 
+    transition: background-color 0.8s, color 0.8s;
+ 
+  }
+  .light-link {
+  color: var(--link-color-light);
+}
+
+.dark-link {
+  color: var(--link-color-dark);
+}
+  :root {
+
+  
+    --link-color-light: #000408; /* Light mode link color */
+    --link-color-dark: #f6f8f8;  /* Dark mode link color */
+  }
+  
+.light-mode.theme-link {
+    color: var(--link-color-light);
+    text-decoration: none;
+  }
+  
+  .dark-mode .theme-link {
+    color: var(--link-color-dark);
+  }
+h4{
+    color:#1BA098;
+}
+h5{
+    color:#1BA098;
+}
+.parentDiv{
+   
+    height: 100vh;
+}
+.mainDiv{
+ 
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.headTrack{
+    color: #1BA098;
+}
+.navBar_btn:hover{
+    border-color:#1BA098;
+    background-color: #1BA098;
+    color:white;
+    
+}
+.TrackingBtn{
+    border: none;
+    background-color:#1BA098;
+    height: 50px;
+    box-shadow: 50px;
+    border-bottom: 4px solid #1BA098;
+}
+.nav-item{
+    list-style-type: none;
+}
+/* .VideoDiv{
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+} */
+@media only screen and (max-width: 650px)
+{.content{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-size: 10px;
+    line-height: 1.5;
+}}
+@media only screen and (max-width: 650px)
+{.heading{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 1.5;
+}}
+/* @media only screen and (max-width: 650px)
+{.VideoDiv{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30vh;
+}} */
+.VideoDiv{
+    text-align: center;
+    background-image: url(https://clockify.me/assets/images/time-tracker-screenshot.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:576px){
+    
+}
+.usecase{
+    opacity: 50%;
+    
+}
+.card_btn{
+    opacity: 50%;
+
+    border-color: gray;
+    border-radius: 5px;
+}
+.card_btn:hover{
+    border-color:#1BA098;
+    color:#1BA098;
+}
+/* .footDiv{
+    height: 65vh;
+    background-color: #F7FCFF;
+} */
+.companyLogin>p{
+    font-size: 13px;
+    color: #1BA098;
+}
+.companyLogin>ul>a{
+    font-size: 13px;
+    color: #1BA098;
+}
+
+.accountBtn{
+    margin-top: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #1BA098;
+    border-bottom: 4px solid #1BA098;
+    width: 285px;
+    height: 56px;
+   
+    padding-top: 4px;
+    outline: none;
+    border: none;
+}
+.accountBtn:hover{
+    background-color: #1BA098;
+}
+
+.productDiv>ul>a{
+ text-decoration: none;   
+ color: #1BA098;
+ font-size: 15px;
+
+}
+.productDiv>ul>a:hover{
+    color: #1BA098;
+}
+.footMainDiv{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.companyDiv>ul>a{
+    text-decoration: none; 
+    color: #1BA098;  
+    font-size: 15px;
+   }
+   .companyDiv>ul>a:hover{
+    color: #1BA098;
+   }
+
+.solutionDiv>ul>select{
+    border: none;
+    outline: none;
+    font-size: 8px;
+    color: #1BA098;
+    
+}
+.solutionDiv>ul:hover{
+    color: #1BA098;
+    cursor: pointer;
+}
+
+.solutionDiv>ul{
+    text-decoration: none; 
+    color: #1BA098;
+    font-size: 15px;
+}
+.supportDiv>ul>a{
+    text-decoration: none; 
+    color: #1BA098;
+    font-size: 15px;
+}
+.supportDiv>ul>a:hover{
+    color: #1BA098;
+}
+.pumbleImg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.plakyImg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.creditSection>a,p{
+    color: #1BA098;
+    text-decoration: none;
+    font-size: 12px;
+}
+.creditSection>a:hover{
+    color:#1BA098;
+}
+.logoSection>a{
+    color: #1BA098;
+}
+.dropdown>button,ul>li{
+    color: #1BA098;
+}
+.dropdown:hover{
+    color: #1BA098;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+
+}
+.dropdownDiv{
+  
+    width: 400px;
+}
+.dropdownDiv>div>h6,p,h6>a,p>a{
+    text-decoration: none;
+    /* color: rgb(18, 18, 18); */
+    font-size: 15px;
+    height: 10px;
+}
+
+.dropdownDiv>div>h6,p,h6>a:hover,p>a:hover{
+    text-decoration: none;
+    color:#1BA098;
+    
+}
+@media only screen and (max-width: 767px) {
+    .dropdownDiv {
+        width: 90%;
+    }
+    .dropdownDiv>div>h6,p,h6>a,p>a{
+        font-size: 11px;
+    }
+}
+.tracking_btn{
+    background: none;
+    border-color:  #1BA098;
+    color: #1BA098;
+    width: 100px;
+}
+.tracking_btn:hover{
+    background-color: #1BA098;
+    /* color: white; */
+}
+.timekeeping{
+    margin-left: 60px;
+   
+  }
+  .report{
+    margin-left: 90px;
+  }
+  .timekeeping>a:hover{
+  color: #1BA098;
+  
+  }
+  /* .timekeeping>a{
+    color: black;
+    } */
+    .img-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+      -o-object-fit: contain;
+      object-fit: contain;
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      margin: 20px auto;
+      width: 100%;
+    }
+  
+    @media (max-width: 576px) { 
+      .img-fluid {
+        width: 100%;
+      }
+    }

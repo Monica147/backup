@@ -1,0 +1,156 @@
+.signupDiv{
+    height: 100vh;
+    width: 100%;
+
+  }
+  
+  .show-btn{
+     
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: 500;
+   
+      cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .show-btn, .containers{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+      
+    input[type="checkbox"]{
+      display: none;
+    }
+    .containers{
+      height: 95vh;
+      width: 100%;
+     
+      width: 350px;
+       padding: 30px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      border-radius: 0px; 
+    }
+    #show:checked ~ .containers{
+      display: block;
+    }
+    .containers .close-btn{
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .containers .close-btn:hover{
+      color: #000;
+    }
+    .containers .texts{
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .containers form{
+      margin-top: -20px;
+    }
+    .containers form .datas{
+      height: 45px;
+      width: 100%;
+      margin: 40px 0;
+    }
+     
+    form .datas input{
+      height: 100%;
+      width: 100%;
+      padding-left: 10px;
+      font-size: 17px;
+      border: 1px solid silver;
+      font-weight: bold;
+    }
+    #terms{
+      border: 1px solid silver;
+      display: flex;
+      position: relative;
+      top: 19px;
+      left: -16px;
+    }
+    form .datas input:focus{
+      border-color: #7db2cc;
+      border-bottom-width: 2px;
+    }
+    form .forgot-pass{
+      margin-top: -8px;
+    }
+    form .forgot-pass a{
+      color: #3498db;
+      text-decoration: none;
+    }
+    form .forgot-pass a:hover{
+      color:#7db2cc ;
+    }
+    form .btns{
+      margin: 30px 0;
+      height: 45px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    form .btns .inners{
+      height: 100%;
+      width: 300%;
+      position: absolute;
+      left: -100%;
+      z-index: -1;
+      background: linear-gradient(to right,#7db2cc 10%,#5d7f7e);
+      transition: all 0.4s;
+    }
+    form .btns:hover .inners{
+      left: 0;
+    }
+    form .btns button{
+      height: 100%;
+      width: 100%;
+      background: none;
+      border: none;
+    
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    form .signup-links{
+      text-align: center;
+    }
+    form .signup-links a{
+      color: #3498db;
+      text-decoration: none;
+    }
+    form .signup-links a:hover{
+      color:#7db2cc ;
+    }
+    .terms-checkboxs {
+      margin-top: 15px;
+      text-align: left;
+    }
+    .terms{
+      text-decoration: none;
+    }
+    body.light-mode {
+        background-color: #fff;
+        color: #000;
+      
+      }
+      
+      body.dark-mode {
+        background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    
+        color: #fff;
+      }
+      
+      .app {
+        padding: 10px;
+     
+        transition: background-color 0.8s, color 0.8s;
+     
+      }

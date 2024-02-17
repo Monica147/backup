@@ -1,0 +1,8 @@
+.pclass{
+    color: rgb(82, 80, 80);
+}
+@media (max-width: 576px) {
+    .contain {
+      width: 100%; 
+    }
+  }

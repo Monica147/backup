@@ -1,0 +1,43 @@
+ 
+.body1{
+    background-color: #a6eee9;
+    height: 100vh;
+  }
+  .manageDiv1 {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    width: 65%; 
+    height: 100%;
+    max-width: 950px; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 3%;
+    box-sizing: border-box; 
+  }
+  
+  @media (max-width: 768px) {
+    .manageDiv1 {
+      width: 95%; 
+      max-width: none; 
+    }
+  }
+  .img1 {
+
+     text-align: center;
+     width:20vw;
+     height:30vh;
+     margin-left: 75%;
+     margin-top: 20%;
+  
+   }
+   
+   .img2 {
+     
+     width:20vw;
+     height:30vh;
+     margin-left: 33%;
+     margin-top: 20%;
+   
+   
+   }

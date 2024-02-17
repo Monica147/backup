@@ -1,0 +1,63 @@
+/* .inputtop{
+    margin-top: 100px;
+} */
+/* .btnprofile {
+    font-size: 12px;
+    padding: 5px 10px;
+    height: 20px;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap; 
+    color: black;
+} */
+.btnprofile {
+    font-size: 12px;
+
+    height: 25px; 
+    width: auto;
+margin-top: 20px;
+   
+    color: black;
+}
+.btnprofilesave {
+    font-size: 12px;
+    height: 25px;
+    width: auto;
+    margin-left: 20px;
+   color: black;
+}
+.btnprofileadd {
+    font-size: 12px;
+    height: 25px;
+    width: auto;
+    margin-left: 20px;
+   color: black;
+}
+.btnprofilecancel{
+    font-size: 12px;
+
+    height: 25px;
+    width: auto;
+    margin-left: 20px;
+   color: black;
+}
+
+.inputfile{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+}
+.certificate-container {
+    width: 80%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+  .certificate-container_1{
+    width: 80%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }

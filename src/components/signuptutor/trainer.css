@@ -1,0 +1,399 @@
+.trainersignupsDiv {
+    
+   
+   
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#1BA098 10%,#a6eee9) no-repeat;
+  }
+  .trainergender{
+
+    height: 100%;
+   color: #7b7a7a;
+    
+  }
+  .trainergenderr{
+
+    height: 100%;
+    color: #7b7a7a;
+   
+  }
+ 
+  
+  .trainercontainerrr {
+    width: 550px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+   
+  }
+  .h1trainer{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .h6trainer{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#7b7a7a;
+    font-size:medium;
+  }
+  .agetrainer{
+    color:#fafafa;
+    font-size:medium;
+
+  }
+  .agetrainer:hover {
+  color: #0826e7;
+  }
+  .trainerBTNSIGN{
+    background: linear-gradient(to right,#1BA098 10%,#a6eee9) no-repeat;
+  }
+  .trainercontainerrr:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trainertextt {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .trainerdataaa {
+    margin-bottom: 20px;
+  }
+  .trainerfname{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerfname:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerlname:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerlname{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerphone{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerphone:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainercategory {
+    width: 100%;
+    padding: 10px;
+    color: #7b7a7a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainercategory:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerdate{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerdate:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trianerbg{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+  }
+  .trainerbg:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainercity{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+  }
+  .trainercity:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainernational{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+  }
+  .trainernational:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerage{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+  }
+  .trainerage:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .traineremp{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+  }
+  .traineremp:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerbatch{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerbatch:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerdoj{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerdoj:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .traineremail{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .traineremail:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerpassword{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  .trainerpassword:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+
+  .trainerdomain:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  .trainerSlot:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  .trainerterms-checkboxxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .trainerterms-checkboxxx input {
+    margin-right: 10px;
+  }
+  
+  .trainerbtnn {
+    position: relative;
+  }
+  
+  .trainerinnerrr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4caf50, #45a049);
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .trainerbtnn:hover .innerrr {
+    opacity: 1;
+  }
+  
+  .trainerBTNSIGN {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4caf50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trainerBTNSIGN:hover {
+    background-color: #45a049;
+  }
+  
+  .trainersignup-linkkk {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #trainerterms{
+    border: 1px solid silver;
+    display: flex;
+    position: relative;
+    top: 19px;
+    margin-left: 25px;
+
+  }
+  .trainerspan{
+    position: relative;
+   
+  }
+  .trainersignup-linkkk a {
+    color: #1BA098 ;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+ 
+  .trainersignup-linkkk a:hover {
+    color: #1BA098;
+  }
+  .trainertermm{
+    text-decoration: none;
+    margin-left: 5px;
+  }
+ .trainerbatch{
+    width: 70px;
+ }
+ .trainerdomain{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .trainersubdomain{
+  
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .trainerSlot{
+    width:fit-content;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .Branch{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .Type{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .Role{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color:#666464;
+ }
+ .Role:focus{
+    outline: none;
+    border-color: #4caf50;
+ }
+
+ .Type:focus{
+    outline: none;
+    border-color: #4caf50;
+ }
+ .Branch:focus{
+    outline: none;
+    border-color: #4caf50;
+  }
+ 
+ 
+ .trainerimgticktraq1{
+  width:150px;
+ 
+ }
+
+ .trainertick {
+margin-left: 6%;
+}
+.h1trainer{
+  color:black;
+}
+.male{
+  color:black;
+}
+.trainertermss{
+  color: black;
+  margin-left: 50px;
+}
+ 
+
+ @media (max-width: 768px) {
+  .trainersignupsDiv{
+    background-color:#a6eee9 ;
+    height:fit-content;
+  }
+}
